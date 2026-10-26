@@ -1,0 +1,20 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid #7059c7;
+  border-radius: 8px;
+  color: #7059c7;
+  font: inherit;
+  cursor: pointer;
+}
+
+.button-symbol {
+  line-height: 1;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
